@@ -54,7 +54,8 @@ public class Main {
         // TIPOS PRIMITIVOS
         int n = 1;
         double nd = 1.0;
-        float nf = 1; // mesma coisa do de cima soq aguenta mais numeros
+        float nf = 1.0f;
+        long  nl = (long) 1.0; // mesma coisa do de cima soq aguenta mais numeros
         String s = "test"; // string é uma agrupamento de chars que se forma uma frase ou multiplas palavras
         // string em java acaba tendo um tratamento diferente a alura explica bem https://www.alura.com.br/apostila-java-orientacao-objetos/o-pacote-java-lang#:~:text=String%20%C3%A9%20uma%20classe%20em,new%20String(%22fj11%22)%3B
         char c = 'a'; // char n passa de um unico caractere
